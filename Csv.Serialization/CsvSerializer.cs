@@ -1,13 +1,4 @@
-﻿//===================================================================================
-// THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, 
-// EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES 
-// OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
-//===================================================================================
-// This code is released under the terms of the CPOL license, 
-//===================================================================================
-
-using System;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -18,10 +9,10 @@ using System.Text;
 
 namespace Csv.Serialization
 {
-	/// <summary>
-	/// Serialize and Deserialize Lists of any object type to CSV.
-	/// </summary>
-	public class CsvSerializer<T> where T : class, new()
+    /// <summary>
+    /// Serialize and Deserialize Lists of any object type to CSV.
+    /// </summary>
+    public class CsvSerializer<T> where T : class, new()
 	{
 		#region Fields
 		private bool _ignoreEmptyLines = true;

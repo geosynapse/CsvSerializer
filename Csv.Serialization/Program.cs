@@ -1,28 +1,11 @@
-﻿//===================================================================================
-// THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, 
-// EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES 
-// OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
-//===================================================================================
-// This code is released under the terms of the CPOL license, 
-//===================================================================================
-
-using Csv.Serialization.Model;
+﻿using Csv.Serialization.Model;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.OleDb;
-using System.Globalization;
 using System.IO;
-using System.IO;
-using System.IO.Compression;
-using System.Net;
-using System.Text;
-using System.Text.RegularExpressions;
 
 namespace Csv.Serialization
 {
-	public class Program
+    public class Program
 	{
 		/// <summary>
 		/// Console Application Entry Point
